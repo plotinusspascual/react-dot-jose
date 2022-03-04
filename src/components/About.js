@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="about">
       <div className="container">
-        <h1>About Me</h1>
+        <h1>Hi! I'm Jose</h1>
         <p>
           I am recent Computer Science graduate, who's studies are focused
           on web design and development. I'm seeking to apply my skills on
