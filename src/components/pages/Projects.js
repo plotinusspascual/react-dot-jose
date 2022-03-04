@@ -7,7 +7,10 @@ export default function Projects(){
       textAlign: 'center',
       padding: '10px',
       margin: '20px',
-
+      alignItems: 'center',
+      display: 'flex',
+      justifyContent: 'center',
+      
     },
     projects: {
       width: '18rem',
