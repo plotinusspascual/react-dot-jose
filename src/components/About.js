@@ -10,7 +10,7 @@ function About() {
   }
   return (
     <section id="about">
-      <div class="container border border-dark border-2 rounded" style={styles.about}>
+      <div class="container border border-dark border-1 rounded" style={styles.about}>
         <h1>About Me</h1>
         <p>
           I am recent Computer Science graduate, who's studies are focused

@@ -16,8 +16,8 @@ function App(){
     <Row>
       <Col>
         <About />
-        <Contact />
-        <Projects />            
+        <Projects />    
+        <Contact />        
       </Col>
     </Row>
   </Container>    

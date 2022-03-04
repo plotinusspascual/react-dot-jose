@@ -1,18 +1,54 @@
 import React from "react";
 
 export default function Projects(){
+
+  const styles = {
+    title: {
+      textAlign: 'center',
+      padding: '10px',
+      margin: '20px',
+      border: '1px solid',
+
+    },
+
+    projects: {
+      width: '18rem',
+      padding: '10px',
+      margin: 'auto'
+    }
+  }
   return (
-    <section id="about">
+    <section id="projects" style={styles.title}>
+      <h1>My Projects</h1>
       <div className="container">
-        <h1>About Me</h1>
-        <p>
-          I am recent Computer Science graduate, who's studies are focused
-          on web design and development. I'm seeking to apply my skills on
-          real-world projects and deepen my understanding of software and
-          web develeopment. Currently taking a full stack bootcamp from University
-          of California Berkeley's extension program with an emphasis on front
-          end. 
-        </p>  
+        <div class="row align-items-start">
+        <div class="card" style={styles.projects}>
+          <img src="https://i.imgur.com/HDvbG1d.png" class="card-img-top"></img>
+          <div class="card-body">
+            <h2>FeedMe</h2>
+            <p class="card-text">A restaurant randomizer that gets users location and allows for filtered searches</p>
+            <a href="#" class="btn btn-primary">Check it out!</a>
+          </div>
+        </div>          
+
+        <div class="card" style={styles.projects}>
+          <img src="https://i.imgur.com/HDvbG1d.png" class="card-img-top"></img>
+          <div class="card-body">
+            <h2>FeedMe</h2>
+            <p class="card-text">A restaurant randomizer that gets users location and allows for filtered searches</p>
+            <a href="#" class="btn btn-primary">Check it out!</a>
+          </div>
+        </div>          
+
+        <div class="card" style={styles.projects}>
+          <img src="https://i.imgur.com/HDvbG1d.png" class="card-img-top"></img>
+          <div class="card-body">
+            <h2>FeedMe</h2>
+            <p class="card-text">A restaurant randomizer that gets users location and allows for filtered searches</p>
+            <a href="#" class="btn btn-primary">Check it out!</a>
+          </div>
+        </div>
+        </div>
       </div>
     </section>
   );
