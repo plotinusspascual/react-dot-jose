@@ -19,7 +19,7 @@ function About() {
           web develeopment. Currently taking a full stack bootcamp from University
           of California Berkeley's extension program with an emphasis on front
           end. 
-        </p>  
+        </p>
       </div>
     </section>
   );
