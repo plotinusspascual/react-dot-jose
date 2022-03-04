@@ -16,27 +16,32 @@ function Home(){
     about: {
       width: '80%',
       padding: '20px',
+      color: 'white',
     },
     picture: {
       width: '300px'
     },
     paragraph: {
       fontSize: '25px'
+    },
+    background: {
+      backgroundColor: '#706B62',
+      paddingBottom: '30px'
     }
     
   }
   return(
-  <section id="home">
+  <section id="home" style={styles.background}>
     <header class="jumbotron" style={styles.jumbotron}>
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-12 text-center">
-            <h1 class="fw-light">Console.log('Hi, Im Jose');</h1>
+            <h1 class="fw-light">console.log('Hi, Im Jose');</h1>
           </div>
         </div>
       </div>
     </header>
-    <div class="container border border-dark border-1 rounded" style={styles.about}>
+    <div class="container border border-light border-2 rounded" style={styles.about}>
       <div class="row align-items-start">
       <h1>Get To Know Me</h1>
         <div class="col" style={styles.paragraph}> 
