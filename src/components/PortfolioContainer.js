@@ -5,8 +5,9 @@ import Projects from './pages/Projects';
 import Navbar from './Navbar';
 import Home from './pages/Home';
 import Footer from './Footer';
+import Background from './Background';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'react-bootstrap';
+
 
 export default function PortfolioContainer(){
   const [currentPage, setCurrentPage] = useState('Home');
@@ -28,7 +29,7 @@ export default function PortfolioContainer(){
 
   return (
     <div>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
       <Footer/>
     </div>

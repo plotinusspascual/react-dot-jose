@@ -4,13 +4,28 @@ function About() {
 
   const styles = {
     about: {
-      width: '80%',
-      padding: '20px'
+      height: '100%',
+      display: 'flex',
+      justifyContent: 'center',
+      flexDirection: 'column',
+      alignItems: 'center',
+
+    },
+    jumbotron: {
+      height: '100vh',
+      minHeight: '100vh',
+      backgroundImage: 'url("https://i.imgur.com/zYp1nEz.jpg")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      color: 'white',
+      opacity: '0.5 !important',
     }
   }
   return (
-    <section id="about">
-      <div class="container border border-dark border-1 rounded" style={styles.about}>
+    <section id="about" style={styles.jumbotron}>
+      <div class="container row-align-start h-100 align-items-center">
+        <div class="col" style={styles.about}>
         <h1>About Me</h1>
         <p>
           I am recent Computer Science graduate, who's studies are focused
@@ -19,7 +34,9 @@ function About() {
           web develeopment. Currently taking a full stack bootcamp from University
           of California Berkeley's extension program with an emphasis on front
           end. 
-        </p>
+        </p>        
+        </div>
+
       </div>
     </section>
   );
