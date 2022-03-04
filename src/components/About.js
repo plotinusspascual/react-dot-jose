@@ -1,10 +1,17 @@
 import React from "react";
 
 function About() {
+
+  const styles = {
+    about: {
+      width: '80%',
+      padding: '20px'
+    }
+  }
   return (
     <section id="about">
-      <div className="container">
-        <h1>Hi! I'm Jose</h1>
+      <div class="container border border-dark border-2 rounded" style={styles.about}>
+        <h1>About Me</h1>
         <p>
           I am recent Computer Science graduate, who's studies are focused
           on web design and development. I'm seeking to apply my skills on
