@@ -3,12 +3,22 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Container, Row, Col } from 'react-bootstrap';
 
 function App(){
   return(
-  <main className='text-gray-400 bg-gray-900 body-font'>
-    <About />
-  </main>    
+  <Container>
+    <Navbar />
+    <Row>
+      <Col>
+        <About />
+        <Contact />
+        <Projects />            
+      </Col>
+    </Row>
+  </Container>    
   );
 }
 
