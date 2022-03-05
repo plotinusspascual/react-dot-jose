@@ -6,12 +6,16 @@ function Footer(){
 
   const styles = {
     footer: {
-      margin: 'auto'
+      margin: 'auto',
+      position: 'fixed',
+      width: '100%',
+      bottom: '0',
+      paddingTop: '20px'
     }
   }
 
   return(
-    <div className="footer bg-dark text-center text-white" style={styles.footer}>
+    <div className="footer bg-dark text-center text-white" id="sticky-footer" style={styles.footer}>
       <div class="container p-4 pb-0">
     <section class="mb-4">
       
