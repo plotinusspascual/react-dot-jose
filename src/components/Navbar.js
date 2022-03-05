@@ -6,11 +6,18 @@ function Navbar({ currentPage, handlePageChange}){
     text: {
       textDecoration: 'none',
       color: '#706B62'
+    },
+    button: {
+      textDecoration: 'none',
+      color: 'white',
+    },
+    float: {
+      float: 'right'
     }
   }
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs w-100">
       <li className="nav-item">
         <a style={styles.text}
           href="#home"
@@ -47,6 +54,9 @@ function Navbar({ currentPage, handlePageChange}){
           Contact
         </a>
       </li>
+      <button type="button" class="btn btn-secondary">
+          <a href="../JosePascualResumeII.pdf" style={styles.button} download>My Resume</a>
+      </button> 
     </ul>
   );
 }
