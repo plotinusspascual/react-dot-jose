@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./About";
 import Projects from "./Projects";
-
+import Footer from "../Footer"
 function Home(){
 
   const styles = {
@@ -13,12 +13,15 @@ function Home(){
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       color: 'white',
+      display: 'flex',
+      alignItems: 'center'
     },
     picture: {
       width: '300px'
     },
     content: {
-      paddingTop: '250px'
+      display: 'flex',
+      justifyContent: 'center',
     }
   }
   
@@ -42,6 +45,9 @@ function Home(){
     <div>
       <Projects></Projects>
     </div>
+    <footer>
+      <Footer></Footer>
+    </footer>
   </section>
   )
 }

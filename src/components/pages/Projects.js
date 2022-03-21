@@ -10,7 +10,6 @@ export default function Projects(){
       alignItems: 'center',
       display: 'flex',
       justifyContent: 'center',
-      
     },
     projects: {
       width: '18rem',
