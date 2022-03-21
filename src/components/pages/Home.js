@@ -27,14 +27,14 @@ function Home(){
   
   return(
   <section id="home">
-    <header class="jumbotron" style={styles.jumbotron}>
-      <div class="container" style={styles.content}>
-        <div class="row align-items-start">
-          <div class="col-12">
-            <img src="https://i.imgur.com/j9AIHfL.jpg " class="rounded-circle mx-auto d-block" style={styles.picture}></img>
+    <header className="jumbotron" style={styles.jumbotron}>
+      <div className="container" style={styles.content}>
+        <div className="row align-items-start">
+          <div className="col-12">
+            <img src="https://i.imgur.com/j9AIHfL.jpg " className="rounded-circle mx-auto d-block" style={styles.picture} alt=""></img>
           </div>
-          <div class="col-12 text-center">
-            <h1 class="fw-light">console.log('Hi, Im Jose');</h1>
+          <div className="col-12 text-center">
+            <h1 className="fw-light">console.log('Hi, Im Jose');</h1>
           </div>
         </div>
       </div>

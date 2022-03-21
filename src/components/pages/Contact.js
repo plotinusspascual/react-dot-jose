@@ -1,5 +1,5 @@
 import React from "react";
-import { BsGithub, BsInstagram, BsTwitter, BsLinkedin  } from 'react-icons/bs';
+import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -72,29 +72,29 @@ export default function Contact(){
         </button>
       </form>
 
-    <div class="container" style={styles.icon}>
-    <a class="btn btn-outline-dark btn-floating m-1" 
+    <div className="container" style={styles.icon}>
+    <a className="btn btn-outline-dark btn-floating m-1" 
         href="https://www.instagram.com/plotinussp/" 
-        role="button" target="_blank">
-        <i class="fab fa-instagram-f"><BsInstagram /></i>
+        role="button" target="_blank" rel="noreferrer">
+        <i className="fab fa-instagram-f"><BsInstagram /></i>
       </a>
 
-      <a class="btn btn-outline-dark btn-floating m-1" 
+      <a className="btn btn-outline-dark btn-floating m-1" 
         href="mailto:plotinusspascual@gmail.com" 
-        role="button" target="_blank">
-        <i class="fab fa-twitter"><SiGmail /></i>
+        role="button" target="_blank" rel="noreferrer">
+        <i className="fab fa-twitter"><SiGmail /></i>
       </a>
       
-      <a class="btn btn-outline-dark btn-floating m-1" 
+      <a className="btn btn-outline-dark btn-floating m-1" 
         href="https://www.linkedin.com/in/jose-plotinuss-pascual/" 
-        role="button" target="_blank">
-        <i class="fab fa-linkedin-in"><BsLinkedin /></i>
+        role="button" target="_blank" rel="noreferrer">
+        <i className="fab fa-linkedin-in"><BsLinkedin /></i>
       </a>
 
-      <a class="btn btn-outline-dark btn-floating m-1" 
+      <a className="btn btn-outline-dark btn-floating m-1" 
         href="https://github.com/plotinusspascual/" 
-        role="button" target="_blank">
-        <i class="fab fa-github"><BsGithub /></i>
+        role="button" target="_blank" rel="noreferrer">
+        <i className="fab fa-github"><BsGithub /></i>
       </a>
     </div>
 

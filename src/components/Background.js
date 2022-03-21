@@ -17,7 +17,7 @@ function Background(){
   
   return(
   <section id="home">
-    <header class="jumbotron" style={styles.jumbotron}>
+    <header className="jumbotron" style={styles.jumbotron}>
     </header>
   </section>
   )
