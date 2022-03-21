@@ -19,12 +19,8 @@ function About() {
         <div class="col" style={styles.about}>
         <h1>About Me</h1>
         <p>
-          I am recent Computer Science graduate, who's studies are focused
-          on web design and development. I'm seeking to apply my skills on
-          real-world projects and deepen my understanding of software and
-          web develeopment. Currently taking a full stack bootcamp from University
-          of California Berkeley's extension program with an emphasis on front
-          end. 
+        I am a computer science and full stack web developer bootcamp graduate whose studies were focused on web design and development. 
+        I’m seeking to apply my skills on real-world projects and deepen my understanding of software and web development.
         </p>        
         </div>
 
