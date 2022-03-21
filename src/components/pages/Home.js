@@ -1,5 +1,6 @@
 import React from "react";
-
+import About from "./About";
+import Projects from "./Projects";
 
 function Home(){
 
@@ -35,6 +36,12 @@ function Home(){
         </div>
       </div>
     </header>
+    <div>
+      <About></About>
+    </div>
+    <div>
+      <Projects></Projects>
+    </div>
   </section>
   )
 }

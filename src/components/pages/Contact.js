@@ -25,17 +25,6 @@ export default function Contact(){
 
   return (
     <section style={styles.form}>
-    <div class="column mb-3 my-auto" style={styles.width}>
-    <h1>Contact Info</h1>
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-    </div>
-    <div class="mb-3" style={styles.width}>
-      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" 
-      placeholder="Send me a message and I'll get back to you as soon as I can" rows="3"></textarea>
-    </div>
-    <button type="button" class="btn btn-dark" style={styles.width}>Send</button>
 
     <div class="container" style={styles.icon}>
     <a class="btn btn-outline-dark btn-floating m-1" 

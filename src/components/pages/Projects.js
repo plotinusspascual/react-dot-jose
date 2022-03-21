@@ -16,16 +16,9 @@ export default function Projects(){
       width: '18rem',
       height: '500px',
       padding: '10px',
-      margin: 'auto'
-    },
-    jumbotron: {
-      height: '100vh',
-      minHeight: '500px',
-      backgroundImage: 'url("https://i.imgur.com/zYp1nEz.jpg")',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
+      margin: 'auto',
       color: 'black',
+      fontSize: '20px'
     },
     image: {
       width: '100%',
@@ -33,7 +26,7 @@ export default function Projects(){
     }  
   }
   return (
-    <section id="projects" style={styles.jumbotron}>
+    <section id="projects">
       <div class="container-fluid" style={styles.title}>
         <div class="row align-items-start">
         <h1>My Projects</h1>

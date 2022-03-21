@@ -9,21 +9,12 @@ function About() {
       justifyContent: 'center',
       flexDirection: 'column',
       alignItems: 'center',
+      fontSize: '20px'
 
-    },
-    jumbotron: {
-      height: '100vh',
-      minHeight: '100vh',
-      backgroundImage: 'url("https://i.imgur.com/zYp1nEz.jpg")',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      color: 'white',
-      opacity: '0.5 !important',
     }
   }
   return (
-    <section id="about" style={styles.jumbotron}>
+    <section id="about">
       <div class="container row-align-start h-100 align-items-center">
         <div class="col" style={styles.about}>
         <h1>About Me</h1>

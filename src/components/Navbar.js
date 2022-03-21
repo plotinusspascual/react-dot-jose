@@ -29,24 +29,6 @@ function Navbar({ currentPage, handlePageChange}){
       </li>
       <li className="nav-item">
         <a style={styles.text}
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a style={styles.text}
-          href="#blog"
-          onClick={() => handlePageChange('Projects')}
-          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
-        >
-          Projects
-        </a>
-      </li>
-      <li className="nav-item">
-        <a style={styles.text}
           href="#contact"
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
