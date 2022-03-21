@@ -1,6 +1,16 @@
 import React from "react";
+import FileSaver from 'file-saver';
+import resume from '../JosePascualResume.pdf';
+import Link from "react-dom";
 
 function Navbar({ currentPage, handlePageChange}){
+
+  const saveFile = () => {
+    FileSaver.saveAs(
+      process.env.REACT_APP_CLIENT_URL + "../../public/asset/JosePascualResume.pdf",
+      "JosePascualResume"
+    );
+  };
 
   const styles = {
     text: {
@@ -36,8 +46,8 @@ function Navbar({ currentPage, handlePageChange}){
           Contact
         </a>
       </li>
-      <button type="button" class="btn btn-secondary">
-          <a href="../JosePascualResumeII.pdf" style={styles.button} download>My Resume</a>
+      <button className="btn btn-secondary" style={styles.button}>
+         <a href={resume} download="JosePascualResume.pdf">Resume</a>
       </button> 
     </ul>
   );
