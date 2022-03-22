@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-dot-jose/static/css/main.1a8a0596.css",
-    "main.js": "/react-dot-jose/static/js/main.d7667fc1.js",
+    "main.js": "/react-dot-jose/static/js/main.7245125b.js",
+    "static/media/JosePascualResume.pdf": "/react-dot-jose/static/media/JosePascualResume.600312b19056637fc2a3.pdf",
     "index.html": "/react-dot-jose/index.html",
     "main.1a8a0596.css.map": "/react-dot-jose/static/css/main.1a8a0596.css.map",
-    "main.d7667fc1.js.map": "/react-dot-jose/static/js/main.d7667fc1.js.map"
+    "main.7245125b.js.map": "/react-dot-jose/static/js/main.7245125b.js.map"
   },
   "entrypoints": [
     "static/css/main.1a8a0596.css",
-    "static/js/main.d7667fc1.js"
+    "static/js/main.7245125b.js"
   ]
 }
